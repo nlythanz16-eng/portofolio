@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Pribadi | Front-end Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="home">
+    <div class="container navbar-inner">
+      <a class="brand" href="#home" aria-label="Ke Home">
+        <span class="brand-badge">👨‍💻</span>
+        <span class="brand-text">
+          <strong>Portofolio</strong>
+          <span>SMK RPL • Front-end</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Menu Navigasi">
+        <a href="#Home">🏠 Home</a>
+        <a href="#tentang Saya">💡 Tentang Saya</a>
+        <a href="#skill">🛠️ Skill</a>
+        <a href="#project">🗂️ Project</a>
+        <a href="#contact">📩 Kontak</a>
+      </nav>
+
+      <div class="nav-cta">
+        <!-- Mobile helper (simple) -->
+        <a class="icon-btn" href="#mobile-menu" aria-label="Buka Menu">☰</a>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <div class="container" style="padding: 0 0 16px;">
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a class="btn btn-outline" href="#Home">🏠 Home</a>
+          <a class="btn btn-outline" href="#Tentang Saya">💡 Tentang Saya</a>
+          <a class="btn btn-outline" href="#skill">🛠️ Skill</a>
+          <a class="btn btn-outline" href="#project">🗂️ Project</a>
+          <a class="btn btn-outline" href="#contact">📩 Kontak</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero/Home -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-card">
+          <div class="hero-breadcrumb">✨ Available for Internship / Freelance</div>
+          <h1>
+            Hi, I’m <span class="gradient-text">tristan Haidal Fahresy</span>
+          </h1>
+          <p class="role">Jurusan: PPLG<br>SMKN 2 Padang Panjang</br>
+            <span style="font-weight:900;">SMK RPL | Front-end developer</span> atau <span style="font-weight:900;">future web developer</span>
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#project">🧾 Lihat Project</a>
+            <a class="btn btn-outline" href="#contact">📞 Hubungi Saya</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="pill">📍 <b>Kab.Tanah Datar</b> <span>Kecamatan Batipuah Selatan,Nagari Sumpur, Jorong Sumpur</span></div>
+            <div class="pill">⏱️ <b>Belajar</b> <span>HTML • CSS </span></div>
+            <div class="pill">🎯 <b>Fokus</b> <span>HTML & CSS</span></div>
+          </div>
+        </div>
+
+        <div class="profile-wrap">
+          <div class="profile" aria-label="Profil">
+            <div class="profile-inner">
+              <div class="avatar">
+                <!-- Ganti src dengan foto profil yang kamu punya -->
+                <img src="fotoprofil.jepg.jpeg" alt="Foto Profil" />
+              </div>
+              <h3>Tristan</h3>
+              <p>Front-end Developer • Future Web Developer</p>
+              <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:8px;">
+                <a class="btn btn-outline" style="padding:10px 14px; border-radius:999px;" href="#project">🧠 UI Ideas</a>
+                <a class="btn btn-outline" style="padding:10px 14px; border-radius:999px;" href="#contact">📬 Ready</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang Saya -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title">
+          <span class="icon">💡</span>
+          <h2>Tentang Saya</h2>
+        </div>
+        <p class="section-sub">Halo, saya Tristan Haidal Fahresy,seorang siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki minat besar di bidang pengembangan website,khususnya Front-end Development. Saya senang mempelajari teknologi baru dan terus mengembangkan kemampuan melalui berbagai proyek web sederhana maupun kompleks.</p>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="about-list">
+              <div class="about-item">
+                <div class="badge">👋</div>
+                <div>
+                  <strong>Perkenalan</strong>
+                  <p>Saya seorang siswa SMK jurusan RPL yang sedang fokus belajar pengembangan web, khususnya bagian front-end.</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <div class="badge">🏫</div>
+                <div>
+                  <strong>Sekolah</strong>
+                  <p>SMKN 2 Padang Panjang</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <div class="badge">🧑‍🎓</div>
+                <div>
+                  <strong>Jurusan</strong>
+                  <p>RPL (Rekayasa Perangkat Lunak)</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <div class="badge">🎂</div>
+                <div>
+                  <strong>Umur</strong>
+                  <p>16 tahun</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="about-list">
+              <div class="about-item">
+                <div class="badge">🎯</div>
+                <div>
+                  <strong>Tujuan Belajar</strong>
+                  <p>Membangun website yang rapi, cepat, dan mudah digunakan.</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <div class="badge">⚡</div>
+                <div>
+                  <strong>Hobi</strong>
+                  <p>Belajar hal baru, merancang tampilan (UI), dan mencoba membuat project sederhana.</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <div class="badge">🏆</div>
+                <div>
+                  <strong>Cita-cita</strong>
+                  <p>Menjadi <b>Front-end Developer</b> yang kreatif dan profesional.</p>
+                </div>
+              </div>
+
+              <div class="about-item">
+                <div class="badge">🧩</div>
+                <div>
+                  <strong>Catatan</strong>
+                  <p>Saya terus berusaha meningkatkan kemampuan di bidang pemrograman dengan mempelajari teknologi baru, mengerjakan proyek pribadi, dan mengikuti perkembangan dunia web Development.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill -->
+    <section class="section" id="skill">
+      <div class="container">
+        <div class="section-title">
+          <span class="icon">🛠️</span>
+          <h2>Skill</h2>
+        </div>
+        <p class="section-sub">HTML dan CSS.</p>
+
+        <div class="grid-2">
+          <div class="card">
+            <div class="skill-wrap">
+              <div class="skill-row">
+                <div class="skill-top"><strong>HTML</strong><span>85%</span></div>
+                <div class="bar"><i style="--w: 85%"></i></div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-top"><strong>CSS</strong><span>80%</span></div>
+                <div class="bar"><i style="--w: 80%"></i></div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-top"><strong>Responsive Design</strong><span>0%</span></div>
+                <div class="bar"><i style="--w: 0%"></i></div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-top"><strong>UI & Layout</strong><span>0%</span></div>
+                <div class="bar"><i style="--w: 0%"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="skill-wrap">
+              <div class="skill-row">
+                <div class="skill-top"><strong>JavaScript (dasar)</strong><span>0%</span></div>
+                <div class="bar"><i style="--w: 0%"></i></div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-top"><strong>Figma (basic)</strong><span>0%</span></div>
+                <div class="bar"><i style="--w: 0%"></i></div>
+              </div>
+              <div class="skill-row">
+                <div class="skill-top"><strong>Git & GitHub</strong><span>0%</span></div>
+                <div class="bar"><i style="--w: 0%"></i></div>
+              </div>
+
+              <div class="skill-row" style="background: rgba(20,184,166,.08);">
+                <div style="display:flex; align-items:center; gap: 12px;">
+                  <div style="font-size: 22px;">📌</div>
+                  <div>
+                    <strong style="display:block;">Ingin menonjol?</strong>
+                    <p style="color: var(--muted); margin-top:6px; font-weight:700;">
+                      Tambahkan project yang punya UI menarik agar skill terlihat nyata.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section class="section" id="project">
+      <div class="container">
+        <div class="section-title">
+          <span class="icon">🗂️</span>
+          <h2>Project</h2>
+        </div>
+        <p class="section-sub">Setiap project mencakup gambar, deskripsi singkat, teknologi, dan status.</p>
+
+        <div class="grid-3">
+          <!-- Project 1 -->
+          <article class="card project-card" tabindex="0">
+            <div class="project-img">
+              <img src="gambar toko buku.jpeg" alt="Website Toko Buku" />
+            </div>
+            <h3>Website Toko Buku Online</h3>
+            <p>Platform sederhana untuk menampilkan produk buku dan proses pembelian (contoh project).</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Responsive</span>
+            </div>
+            <div class="status done"><i></i> Dalam Perkembangan</div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project-card" tabindex="0">
+            <div class="project-img">
+              <img src="gambar login.jpeg" alt="Website Login" />
+            </div>
+            <h3>Website Login & Akun</h3>
+            <p>Halaman autentikasi user dengan layout yang rapi dan form yang mudah dipahami.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Form UI</span>
+            </div>
+            <div class="status done"><i></i> Selesai</div>
+          </article>        
+
+          <!-- Project 3 -->
+          <article class="card project-card" tabindex="0">
+            <div class="project-img">
+              <img src="gambar portofolio.jpeg" alt="Landing Page" />
+            </div>
+            <h3>Landing Page Portofolio</h3>
+            <p>Single page layout dengan navbar, section informatif, dan tampilan profesional.</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">UI/UX</span>
+            </div>
+            <div class="status done"><i></i> Selesai</div>
+          </article>
+    </section>
+
+    <!-- Pendidikan -->
+    <section class="section" id="pendidikan">
+      <div class="container">
+        <div class="section-title">
+          <span class="icon">🎓</span>
+          <h2>Pendidikan</h2>
+        </div>
+        <p class="section-sub">Riwayat pendidikan dari SD sampai SMK.</p>
+
+        <div class="edu-list">
+          <div class="edu-item">
+            <div class="edu-icon">🏫</div>
+            <div>
+              <strong>SD</strong>
+              <span>(SDN 04 Sumpur)</span>
+            </div>
+            <div class="edu-year">Tahun Masuk: 2016</div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-icon" style="background: rgba(37,99,235,.10); color: var(--accent-2);">🏫</div>
+            <div>
+              <strong>SMP</strong>
+              <span>(SMPN 1 Batipuah Selatan)</span>
+            </div>
+            <div class="edu-year">Tahun Masuk: 2021</div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-icon" style="background: rgba(20,184,166,.12);">🎒</div>
+            <div>
+              <strong>SMK</strong>
+              <span>(SMKN 2 Padang Panjang) • RPL</span>
+            </div>
+            <div class="edu-year">Tahun Masuk: 2025</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <span class="icon">📩</span>
+          <h2>Kontak</h2>
+        </div>
+        <p class="section-sub">Email, nomor HP, Instagram, dan TikTok.</p>
+
+        <div class="contact-grid">
+          <div class="card contact-card">
+            <div class="contact-item">
+              <div class="c-icon">✉️</div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:nly.thanz16@gmail.com">nly.thanz16@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="c-icon">📞</div>
+              <div>
+                <strong>Nomor HP</strong>
+                <a href="tel:6281234567890">+62 83867916710</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="c-icon">📍</div>
+              <div>
+                <strong>Lokasi</strong>
+                <span style="color: var(--muted); font-weight: 800;">Kab.Tanah Datar, Kec.Batipuah Selatan, Nagari Sumpur, Jorong Sumpur.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card contact-card">
+            <div class="contact-item">
+              <div class="c-icon">📷</div>
+              <div>
+                <strong>Instagram</strong>
+                <a href="https://instagram.com/nly_thanz16" target="_blank" rel="noopener">@nly_thanz16</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="c-icon">🎵</div>
+              <div>
+                <strong>TikTok</strong>
+                <a href="https://tiktok.com/@tristan.fahresy" target="_blank" rel="noopener">@tristan.fahresy</a>
+              </div>
+            </div>
+
+            <div style="margin-top: 14px;">
+              <a class="btn btn-primary" href="#project" style="width: 100%;">🧾 Lihat Project Lagi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          © <span id="year">2026</span> • Tristan Haidal Fahresy • Portofolio Front-end
+        </div>
+
+        <div class="socials" aria-label="Ikon Media Sosial">
+          <a class="social" href="https://instagram.com/nly_thanz16" target="_blank" rel="noopener" aria-label="Instagram">📷</a>
+          <a class="social" href="https://tiktok.com/tristan.fahresy" target="_blank" rel="noopener" aria-label="TikTok">🎵</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // update tahun otomatis
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
